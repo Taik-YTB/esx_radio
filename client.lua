@@ -1,5 +1,6 @@
 -- Created by Marcel Clément
--- Si vous avez modifier le script demandez le moi pour vous l'autorisez à le publié
+-- Correction par TheIntelloBox.
+-- Si vous avez modifié le script demandez le moi pour vous l'autorisez à le publier
 
 local Keys = {
 	["ESC"] = 322, ["F1"] = 288, ["F2"] = 289, ["F3"] = 170, ["F5"] = 166, ["F6"] = 167, ["F7"] = 168, ["F8"] = 169, ["F9"] = 56, ["F10"] = 57, 
@@ -31,7 +32,7 @@ local skins = {
 	"mp_m_freemode_01",
 }
 
--- L'animation de radio
+-- L'animation de Radio
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait( 0 )
